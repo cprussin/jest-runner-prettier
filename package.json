@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run build; node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "postinstall": "npm run build",
+    "prepack": "npm run build",
     "prepare": "husky install"
   },
   "lint-staged": {
