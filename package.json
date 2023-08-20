@@ -1,6 +1,6 @@
 {
-  "name": "jest-runner-prettier",
-  "version": "0.0.0-development",
+  "name": "@cprussin/jest-runner-prettier",
+  "version": "1.0.0",
   "type": "module",
   "description": "A prettier runner for Jest",
   "main": "dist/index.js",
